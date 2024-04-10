@@ -1,38 +1,96 @@
-.App {
+body {
+  margin: 40;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(135deg, #a9c9ff 0%, #ffbbec 100%);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
+  background-color: #e7e6e1; /* Container background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description h2 {
+  color: #346357; /* Dark green text color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.description p {
+  color: #346357; /* Dark green text color */
+}
+.title {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
 }
 
-.App-link {
-  color: #61dafb;
+.editor {
+  width: 80%; /* Adjust width as needed */
+  height: 300px;
+  margin: 20px auto; /* Center align the text area */
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #f8f4f4; /* Light yellow text area background color */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  margin: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1dad9b; /* Dark cyan button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #075a52; /* Darker shade of cyan button background color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #346357; /* Dark green text color */
+}
+
+ul li:hover {
+  color: #1dad9b; /* Hover color for versions array */
+}
+
+.navigation-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1dad9b; /* Dark cyan button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+}
+
+.navigation-button:hover {
+  background-color: #075a52; /* Darker shade of cyan button background color */
 }
